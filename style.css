@@ -1,0 +1,55 @@
+.index{
+    background-color:grey;
+}
+
+.exo{
+    background-color: pink;
+}
+
+h2{
+    border-style:dotted ;
+}
+
+p {
+    font-style: italic;
+}
+
+li {
+    color: red;
+}
+
+a {
+    color:blue;
+}
+.para{
+    background-color: crimson;
+    padding: 200px;
+}
+
+.high{
+
+    margin-inline: 200px;
+    padding: 0px;
+}
+.form{
+    margin-inline: 500px;
+
+}
+
+.index{
+    background-image: url(https://previews.123rf.com/images/reamolko/reamolko1804/reamolko180400023/99163631-macarons-color%C3%A9s-sans-soudure-de-fond-macarons-de-fond-des-bandes-pastel.jpg);
+}
+h1{
+    color: red;
+}
+
+.fb{
+    font-size: 50px;
+    color: red;
+
+}
+.envoyer{
+   color: blue;
+   font-size: larger;
+   background-color: red;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <title>Macaron</title>
+
+    </head>
+
+    <body class="index">
+
+        <header>
+<div class="high">
+            <img class="img macarons"
+            height="300"
+            width="900"
+            src=".//images/macarons.webp" 
+            alt="macarons differents gouts">
+    </div>            <br><br>
+<!--input name-->
+            <div class="form">            
+                <input 
+                type="text"
+                name="nom"
+                placeholder="Saisissez votre nom"/>
+
+            
+
+<!--input pss wrd-->
+            <div> 
+                           
+                <input
+                label="votreMotDePasse"                
+                type="password"
+                name="votreMotDePasse"
+                placeholder="saisissez votre mdp"/>
+            
+            <div>
+                <form action="/traitement" method="POST">
+                    <input 
+                    type="submit" 
+                    value="Se connecter" />
+                    </form>
+            </div> </div></div>
+            
+            <div>
+                      <h1>Recettes Macaron</h1>
+
+                        <video 
+                            width="700mpx" 
+                            height="320mpx" 
+                            controls src="./video/Slice_-_11610.mp4"
+                            type="video/mp4">
+                        </video>
+                </div>
+        </header>
+
+
+
+        <section class="para">
+            <article>
+                <h2>les recettes inrattables</h2>
+
+                <p>Tout le monde souhaite faire des macarons, mais le passage à l'acte fait peur à plus d'un.
+                Ici, nous pourrons trouver les recettes les plus simples et les plus efficaces. <br>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil harum enim obcaecati possimus voluptatibus minus, 
+                doloremque recusandae id, itaque dolores quis blanditiis, aliquam quia. <br> Dicta aliquid expedita odit esse sunt?</p>
+            </article>
+        </section>
+
+
+        <!--faire des differentes pages-->
+        <br><br>
+
+        <section>
+            <img 
+                width="600"
+                height="300" 
+                src="./images/macarons.jpg" 
+                alt="des macarons">
+
+            <h2>Différentes Recettes</h2>
+
+            <nav>
+                <ul>
+                    <li><a href="Recette Macarons Fraises.html">Recette Macarons Fraise</a></li>
+                    <li><a href="Recette Macarons exotiques.html">Recette Macarons exotiques</a></li>
+                    <li><a href="Recette Macarons Nutella.html">Recette Macarons Nutella</a></li>
+                    <li><a href="inscription.html">inscriptions aux news letter </a></li>
+                </ul>
+            </nav>
+
+        </section>
+
+
+        <footer>
+
+            <nav> 
+                <p> <a class="fb" href="https://fr-fr.facebook.com/Macaron-77219335450/"target="_blank">Visitez notre groupe facebook pour découvrir d'autres recettes</a></p>
+            </nav>
+
+            <br>
+
+<!--input contct-->
+                            <form action="" method="POST">
+                            
+                            <div>
+
+                    <label for="nom">Contact:</label>
+                    <input
+                    type="text"
+                    name="nom"
+                    placeholder="Saisissez votre nom">
+                
+   </div>
+
+            <!--input about-->
+            <div>
+
+                <label for="Sujet">Sujet</label>
+                <select name="Sujet">
+                <option disabled selected value="choisir un sujet">choisir un sujet</option>
+                <option value="Macarons Fraises">Macarons Fraises</option>
+                <option value="Macarons Nutella">Macarons Nutella</option>
+                <option value="Macarons exotiques">Macarons exotiques</option>
+                </select>
+              
+            </div>
+            <div>
+
+        <textarea 
+        name="votre message" 
+        id="" cols="30" rows="10" 
+        placeholder="votre message"></textarea>
+            </div>
+
+            <div>
+    
+                <button class="envoyer">envoyer</button>
+            </div>
+          </form>
+
+
+
+        </footer>
+
+    </body>
+
+
+
+</html>
